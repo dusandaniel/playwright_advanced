@@ -1,11 +1,18 @@
+<<<<<<< HEAD
 # dependencies
 /node_modules
 
 # reports
 /playwright-report
 /test-results
+=======
+node_modules/
+>>>>>>> df3d7b9584789eaab5fa4b9f3a59c0152d079285
 /test-results/
 /playwright-report/
 /blob-report/
 /playwright/.cache/
+<<<<<<< HEAD
 node_modules/
+=======
+>>>>>>> df3d7b9584789eaab5fa4b9f3a59c0152d079285
