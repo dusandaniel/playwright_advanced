@@ -37,13 +37,12 @@ export default defineConfig({
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
   reporter: [
     ['list'],
-    ['html'],
-    ['allure-playwright']
+    ['html']
   ],
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     //storageState: 'loginAuth.json',
-    baseURL: 'https://restful-booker.herokuapp.com',
+    baseURL: 'https://restful-booker.herokuapp.com/',
     /* Maximum time each action such as `click()` can take. Defaults to 0 (no limit). */
     actionTimeout: 0,
     /* Base URL to use in actions like `await page.goto('/')`. */

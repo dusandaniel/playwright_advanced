@@ -23,9 +23,10 @@ test.describe('API Tests', () => {
         //extrahuje telo odpovede zo servera vo formate json
         const body = await response.json();
 
-        //prevedenie javascriptu do retazca
+        //prevedenie javascriptu do retazcu
         console.log(JSON.stringify(body));
-                
+        
+        
     });
 
 
