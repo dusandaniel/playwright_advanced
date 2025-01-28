@@ -26,7 +26,6 @@ test.describe('API Tests', () => {
         //prevedenie javascriptu do retazcu
         console.log(JSON.stringify(body));
         
-        
     });
 
 
