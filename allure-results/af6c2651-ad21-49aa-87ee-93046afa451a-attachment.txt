@@ -1,0 +1,11 @@
+{
+  bookingid: 1787,
+  booking: {
+    firstname: 'Dusan',
+    lastname: 'Daniel',
+    totalprice: 111,
+    depositpaid: true,
+    bookingdates: { checkin: '2025-09-01', checkout: '2019-09-11' },
+    additionalneeds: 'Breakfast'
+  }
+}

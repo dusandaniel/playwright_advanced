@@ -1,0 +1,14 @@
+config:
+  target: https://playwright.dev
+  phases:
+  - duration: 60
+    arrivalRate: 1
+    rampTo: 5
+  engines:
+    playwright: {}
+  processor: "tests/performance.js"
+scenarios:
+  - name: "testovaci test"
+    engine: playwright
+    flowFunction: "playwrightPerformance"
+    flow: []

@@ -1,0 +1,18 @@
+{ token: 'cf9f77677d0cba2' }
+New token is: cf9f77677d0cba2
+{
+  firstname: 'DusanD',
+  lastname: 'DanielD',
+  totalprice: 1112,
+  depositpaid: true,
+  bookingdates: { checkin: '2025-09-01', checkout: '2019-09-11' },
+  additionalneeds: 'Breakfast'
+}
+{
+  firstname: 'DusanD',
+  lastname: 'DanielD',
+  totalprice: 1112,
+  depositpaid: true,
+  bookingdates: { checkin: '2025-09-01', checkout: '2019-09-11' },
+  additionalneeds: 'Breakfast'
+}

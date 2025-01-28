@@ -1,0 +1,11 @@
+# dependencies
+/node_modules
+
+# reports
+/playwright-report
+/test-results
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+node_modules/

@@ -1,0 +1,25 @@
+{
+  "name": "playwright_skillmea",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "allTests": "playwright test",
+    "test:api": "playwright test --config=api.config.ts --project=chromium --grep=@api"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@scalewright/test": "^1.37.1-1",
+    "@types/node": "^22.5.1",
+    "allure-commandline": "^2.30.0",
+    "allure-playwright": "^2.15.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.4.1",
+    "dotenv": "^16.4.7",
+    "playwright-slack-report": "^1.1.89"
+  }
+}

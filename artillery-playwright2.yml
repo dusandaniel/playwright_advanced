@@ -1,0 +1,11 @@
+config:
+  target: "https://restful-booker.herokuapp.com/booking/2" # The target URL of your API
+  phases:
+  - duration: 60
+    arrivalRate: 1
+    rampTo: 5
+scenarios:
+  - name: test 
+    flow: []
+    expect:
+      - statusCode: 200
