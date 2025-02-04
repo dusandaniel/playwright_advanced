@@ -22,9 +22,10 @@ test.describe('Login', () => {
     });
     await test.step('Enter invalid password', async () => {
       await loginPage.enterInvalidPassword();
+      
     });
     await test.step('Click login button', async () => {
-      await loginPage.clickLoginButton();
+      await loginPage.clickLoginButton(); 
     });
     await test.step('Verify invalid credentials error message', async () => {
       await expect(loginPage.invalidCredentialsErrorMessage, 'Can not find login error message.').toBeVisible();

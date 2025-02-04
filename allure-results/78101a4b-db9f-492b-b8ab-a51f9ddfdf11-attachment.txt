@@ -1,1 +1,0 @@
-{"firstname":"DusanD","lastname":"DanielD","totalprice":1112,"depositpaid":true,"bookingdates":{"checkin":"2025-09-01","checkout":"2019-09-11"},"additionalneeds":"Breakfast"}

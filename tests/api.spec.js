@@ -174,7 +174,6 @@ test.describe('API Tests', () => {
                     },
 
                 });
-
                 expect(deleteRequest.status()).toBe(201);
                 expect(deleteRequest.statusText()).toBe("Created");
 
